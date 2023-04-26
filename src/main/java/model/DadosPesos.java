@@ -34,7 +34,8 @@ public class DadosPesos implements IDado {
 		return this.resultados;
 	}
         
-        public void limpasResultados(){
+        @Override
+        public void limpaResultados(){
             this.resultados = new ArrayList<>();
         }
 }

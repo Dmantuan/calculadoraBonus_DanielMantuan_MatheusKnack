@@ -11,4 +11,6 @@ public interface IDado {
     public void addResultados( String nome, Double valor );
 
     public ArrayList<Resultado> getResultados();
+    
+    public void limpaResultados();
 }

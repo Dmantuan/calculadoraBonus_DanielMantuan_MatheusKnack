@@ -1,7 +1,6 @@
 package services;
 
 import java.util.ArrayList;
-import model.DadosPesos;
 import services.operacao.IDado;
 import services.operacao.DesvioPadraoOperacao;
 import services.operacao.IOperacao;

@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 import javax.swing.ListSelectionModel;
 import javax.swing.table.DefaultTableModel;
-import model.DadosPesos;
 import model.Resultado;
 import view.ResultadosEstatisticaView;
 import services.operacao.IDado;

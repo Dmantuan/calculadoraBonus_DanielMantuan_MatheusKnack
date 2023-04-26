@@ -19,7 +19,7 @@ public class MainPresenter {
     private ResultadosEstatisticaPresenter resultadosPresenter;
     
     public void MainPresenter(){
-        dados = new DadosPesos();
+        this.dados = new DadosPesos();
         
         this.resultadosPresenter = new ResultadosEstatisticaPresenter();
         
@@ -84,7 +84,7 @@ public class MainPresenter {
             calculo.calcular(dados);
             addResultadoList_ResultadosPresenter(dados);
             JOptionPane.showMessageDialog(view, "Estatisticas calculadas com sucesso");
-            dados.limpasResultados();
+            dados.limpaResultados();
         }
         else{
             JOptionPane.showMessageDialog(view, "Falhas em carcular as estatisticas");

@@ -7,9 +7,7 @@ package view;
 import javax.swing.JMenuItem;
 import javax.swing.JTable;
 import javax.swing.JTextField;
-import model.DadosPesos;
-import presenter.ImportarDadosPresenter;
-import services.CalculadoraEstatisticaService;
+import services.operacao.IDado;
 
 /**
  *
@@ -21,9 +19,9 @@ public class PrincipalView extends javax.swing.JFrame {
      * Creates new form Principal
      */
     
-    private DadosPesos dados; 
+    private IDado dados; 
     
-    public PrincipalView(DadosPesos dados) {
+    public PrincipalView(IDado dados) {
         initComponents();
         
         this.dados = dados;

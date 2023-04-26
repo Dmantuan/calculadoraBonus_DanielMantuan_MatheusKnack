@@ -6,14 +6,13 @@ import java.awt.event.ActionListener;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import model.DadosPesos;
 import services.ImportacaoArquivoService;
 
 import services.operacao.IDado;
 
 public class ImportarDadosPresenter {
-    private ImportarDadosView view;
-    private IDado dados;
+    private final ImportarDadosView view;
+    private final IDado dados;
 
     public ImportarDadosPresenter(IDado dados) {
         this.dados = dados;
